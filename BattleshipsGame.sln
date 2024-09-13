@@ -1,0 +1,74 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35122.118
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Battleships.Console", "Battleships.Console\Battleships.Console.csproj", "{D7BD5749-49BA-4590-A2BA-AFD5CDA1A1D9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Battleships.Web.API", "Battleships.Web.API\Battleships.Web.API.csproj", "{2958D10A-4E7E-44CF-A041-E0660EFA0728}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Battleships.Web.DataAccess", "Battleships.Web.DataAccess\Battleships.Web.DataAccess.csproj", "{142A5F1E-F374-46FA-999D-2B7259DE08AE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Battleships.Web.Service", "Battleships.Web.Service\Battleships.Web.Service.csproj", "{95591F1E-1E06-4EBF-948E-0F835E1BF1F7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Battleships.Web.Tests", "Battleships.Web.Tests\Battleships.Web.Tests.csproj", "{B97A633F-E7EF-400C-A4E8-4A89312EC86F}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Battleships.Web.Client", "Battleships.Web.Client\", "{9FCEFF88-4BD5-4A7F-85FA-60052B1A4ACE}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.8"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_60204"
+		Debug.AspNetCompiler.PhysicalPath = "Battleships.Web.Client\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_60204\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_60204"
+		Release.AspNetCompiler.PhysicalPath = "Battleships.Web.Client\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_60204\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "60204"
+		SlnRelativePath = "Battleships.Web.Client\"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D7BD5749-49BA-4590-A2BA-AFD5CDA1A1D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7BD5749-49BA-4590-A2BA-AFD5CDA1A1D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7BD5749-49BA-4590-A2BA-AFD5CDA1A1D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7BD5749-49BA-4590-A2BA-AFD5CDA1A1D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2958D10A-4E7E-44CF-A041-E0660EFA0728}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2958D10A-4E7E-44CF-A041-E0660EFA0728}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2958D10A-4E7E-44CF-A041-E0660EFA0728}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2958D10A-4E7E-44CF-A041-E0660EFA0728}.Release|Any CPU.Build.0 = Release|Any CPU
+		{142A5F1E-F374-46FA-999D-2B7259DE08AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{142A5F1E-F374-46FA-999D-2B7259DE08AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{142A5F1E-F374-46FA-999D-2B7259DE08AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{142A5F1E-F374-46FA-999D-2B7259DE08AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95591F1E-1E06-4EBF-948E-0F835E1BF1F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95591F1E-1E06-4EBF-948E-0F835E1BF1F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95591F1E-1E06-4EBF-948E-0F835E1BF1F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95591F1E-1E06-4EBF-948E-0F835E1BF1F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B97A633F-E7EF-400C-A4E8-4A89312EC86F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B97A633F-E7EF-400C-A4E8-4A89312EC86F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B97A633F-E7EF-400C-A4E8-4A89312EC86F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B97A633F-E7EF-400C-A4E8-4A89312EC86F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9FCEFF88-4BD5-4A7F-85FA-60052B1A4ACE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FCEFF88-4BD5-4A7F-85FA-60052B1A4ACE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FCEFF88-4BD5-4A7F-85FA-60052B1A4ACE}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FCEFF88-4BD5-4A7F-85FA-60052B1A4ACE}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {294AD372-1121-49D5-91A5-D841C13CFCC5}
+	EndGlobalSection
+EndGlobal
