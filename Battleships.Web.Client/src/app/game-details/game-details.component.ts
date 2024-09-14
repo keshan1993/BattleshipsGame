@@ -15,6 +15,7 @@ export class GameDetailsComponent  implements OnInit {
   totalShots: number = 0;
   battleshipHits: number = 0;
   destroyer1Hits: number = 0;
+  restartReq: boolean = false;
 
   xHeaders: string[] = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J']; // X-axis headers
   yHeaders: string[] = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10']; // Y-axis headers
@@ -46,6 +47,20 @@ export class GameDetailsComponent  implements OnInit {
         this.totalShots = data.totalShots;
         this.battleshipHits = data.battleshipHits;
         this.destroyer1Hits = data.destroyer1Hits;
+
+        if(this.battleshipHits == 1 && this.destroyer1Hits == 2)
+        {
+          if(this.restartReq == false)
+          {
+            const userConfirmed = window.confirm('You have won the game...! Do you want to restart?');
+            if (userConfirmed) {
+              this.restartGame();
+              this.restartReq = false;
+            }else{
+              this.restartReq = true;
+            }
+          }
+        }
       },
       (error) => {
         console.error('Error loading grid', error);
@@ -105,6 +120,7 @@ export class GameDetailsComponent  implements OnInit {
         this.totalShots = data.totalShots;
         this.battleshipHits = data.battleshipHits;
         this.destroyer1Hits = data.destroyer1Hits;
+        this.restartReq = true;
         console.log('Game restarted:', data);
       },
       (error) => {
